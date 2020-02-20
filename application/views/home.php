@@ -51,171 +51,215 @@
 	<title>Nom du groupe</title>
 	</head>
 	<body>
+
+
 	<div id="colorlib-page">
 		<div class="container-wrap">
-		<a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
-		<aside id="colorlib-aside" role="complementary" class="border js-fullheight">
-			<div class="text-center">
-				<div class="author-img" style="background-image: url(<?=base_url('assets/images/200110_vorstandsvorsitzende_bild_hero.jpg');?>);"></div>
-				<h1 id="colorlib-logo"><a href="index.html">Nom du groupe</a></h1>
-				<span class="position"><a href="#">Le</a> Slogan</span>
-			</div>
-			<nav id="colorlib-main-menu" role="navigation" class="navbar">
-				<div id="navbar" class="collapse">
-					<ul>
-						<li><a href="#" data-nav-section="home">Accueil</a></li>
-						<li><a href="#" data-nav-section="about">Auteurs</a></li>
-						<li><a href="#" data-nav-section="buy">Achetez nos livres</a></li>
-						<li><a href="#" data-nav-section="blog">Blog</a></li>
-					    <li><a href="#" data-nav-section="contact">Contact</a></li>  
-						<!--<li><a href="#" data-nav-section="experience">Experience</a></li>
-						<li><a href="#" data-nav-section="work">Work</a></li>
-						<li><a href="#" data-nav-section="blog">Blog</a></li> -->
-					</ul>
+			<a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
+			<aside id="colorlib-aside" role="complementary" class="border js-fullheight">
+				<div class="text-center">
+					<div class="author-img" style="background-image: url(<?=base_url('assets/images/200110_vorstandsvorsitzende_bild_hero.jpg');?>);"></div>
+					<h1 id="colorlib-logo"><a href="index.html">Nom du groupe</a></h1>
+					<span class="position"><a href="#">Le</a> Slogan</span>
 				</div>
-			</nav>
+				<nav id="colorlib-main-menu" role="navigation" class="navbar">
+					<div id="navbar" class="collapse">
+						<ul>
+							<li><a href="#" data-nav-section="home">Accueil</a></li>
+							<li><a href="#" data-nav-section="about">Auteurs</a></li>
+							<li><a href="#" data-nav-section="buy">Achetez nos livres</a></li>
+							<li><a href="#" data-nav-section="blog">Blog</a></li>
+							<li><a href="#" data-nav-section="contact">Contact</a></li>  
+							<!--<li><a href="#" data-nav-section="experience">Experience</a></li>
+							<li><a href="#" data-nav-section="work">Work</a></li>
+							<li><a href="#" data-nav-section="blog">Blog</a></li> -->
+						</ul>
+					</div>
+				</nav>
 
-			<div class="colorlib-footer">
-			<p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-            Copyright &copy;<script>document.write(new Date().getFullYear());</script> <a href="www.andreaweb.cd" target="_blank">Andrea Web</a> All rights reserved  <i class="icon-heart" aria-hidden="true"></i> <a href="<?= base_url('about'); ?>" target="_blank">by Andrea Team</a>
-            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
-          <ul>
-					<li><a href="#"><i class="icon-facebook2"></i></a></li>
-					<li><a href="#"><i class="icon-twitter2"></i></a></li>
-					<li><a href="#"><i class="icon-instagram"></i></a></li>
-					<li><a href="#"><i class="icon-linkedin2"></i></a></li>
-				</ul>
-			</div>
+				<div class="colorlib-footer">
+					<p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+					Copyright &copy;<script>document.write(new Date().getFullYear());</script> <a href="www.andreaweb.cd" target="_blank">Andrea Web</a> All rights reserved  <i class="icon-heart" aria-hidden="true"></i> <a href="<?= base_url('about'); ?>" target="_blank">by Andrea Team</a>
+					<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+						<ul>
+							<li><a href="#"><i class="icon-facebook2"></i></a></li>
+							<li><a href="#"><i class="icon-twitter2"></i></a></li>
+							<li><a href="#"><i class="icon-instagram"></i></a></li>
+							<li><a href="#"><i class="icon-linkedin2"></i></a></li>
+						</ul>
+				</div>
 
-		</aside>
+			</aside>
 
-		<div id="colorlib-main">
-			<section id="colorlib-hero" class="js-fullheight" data-section="home">
-				<div class="flexslider js-fullheight">
-					<ul class="slides">
-				   	<li style="background-image: url(<?=base_url('assets/images/200110_vorstandsvorsitzende_bild_hero.jpg');?>);">
-				   		<div class="overlay"></div>
-				   		<div class="container-fluid">
-				   			<div class="row">
-					   			<div class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
-					   				<div class="slider-text-inner js-fullheight">
-					   					<div class="desc">
-						   					<!-- <h1>Hi! <br>I'm Jackson</h1>
-						   					<h2>100% html5 bootstrap templates Made by <a href="https://colorlib.com/" target="_blank">colorlib.com</a></h2>
-												<p><a class="btn btn-primary btn-learn">Download CV <i class="icon-download4"></i></a></p> -->
-										</div>
-					   				</div>
-					   			</div>
-					   		</div>
-				   		</div>
-				   	</li>
-				   	<li style="background-image: url(<?=base_url('assets/images/200110_vorstandsvorsitzende_bild_hero.jpg');?>);">
-				   		<div class="overlay"></div>
-				   		<div class="container-fluid">
-				   			<div class="row">
-					   			<div class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
-					   				<div class="slider-text-inner">
-					   					<div class="desc">
-						   					<!-- <h1>I am <br>a Designer</h1>
+			<div id="colorlib-main">
+			
+
+
+
+
+
+
+
+				<section id="colorlib-hero" class="js-fullheight" data-section="home">
+					<div class="flexslider js-fullheight">
+						<ul class="slides">
+						<li style="background-image: url(<?=base_url('assets/images/200110_vorstandsvorsitzende_bild_hero.jpg');?>);">
+							<div class="overlay"></div>
+							<div class="container-fluid">
+								<div class="row">
+									<div class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
+										<div class="slider-text-inner js-fullheight">
+											<div class="desc">
+												<!-- <h1>Hi! <br>I'm Jackson</h1>
 												<h2>100% html5 bootstrap templates Made by <a href="https://colorlib.com/" target="_blank">colorlib.com</a></h2>
-												<p><a class="btn btn-primary btn-learn">View Portfolio <i class="icon-briefcase3"></i></a></p> -->
+													<p><a class="btn btn-primary btn-learn">Download CV <i class="icon-download4"></i></a></p> -->
+											</div>
 										</div>
-					   				</div>
-					   			</div>
-					   		</div>
-				   		</div>
-				   	</li>
-				  	</ul>
-			  	</div>
-			</section>
-
-			<section class="colorlib-about" data-section="about">
-				<div class="colorlib-narrow-content">
-					<div class="row">
-						<div class="col-md-12">
-							<div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
-								<div class="col-md-12">
-									<div class="about-desc">
-										<span class="heading-meta">Auteurs</span>
-										<h2 class="colorlib-heading">Qui sommes-nous ?</h2>
-										<p><strong>Hi I'm Jackson Ford</strong> On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word "and" and the Little Blind Text should turn around and return to its own, safe country.</p>
-										<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
 									</div>
 								</div>
 							</div>
-							<div class="row">
-								
-								
-							<div class="card-deck">
-								<div class="card">
-									<img class="card-img-top" src="<?=base_url('assets/images/R6vKaLYH_400x400.jpg');?>" width="90" alt="Card image cap">
-									<div class="card-body text-center">
-										<h5 class="card-title">Nom de l'auteur</h5>
-										<p class="card-text">Quelques informations supperficielles</p>
-										<!-- Button trigger modal -->
-										<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
-										Bibliographie
-										</button>
-									</div>
-								</div>
-
-
-
-
-									<!-- Modal -->
-									<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-									<div class="modal-dialog modal-dialog-centered" role="document">
-										<div class="modal-content">
-										<div class="modal-header">
-											<h5 class="modal-title" id="exampleModalCenterTitle">Modal title</h5>
-											<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-											<span aria-hidden="true">&times;</span>
-											</button>
-										</div>
-										<div class="modal-body">
-											...
-										</div>
-										<div class="modal-footer">
-											<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-											<button type="button" class="btn btn-primary">Save changes</button>
-										</div>
+						</li>
+						<li style="background-image: url(<?=base_url('assets/images/200110_vorstandsvorsitzende_bild_hero.jpg');?>);">
+							<div class="overlay"></div>
+							<div class="container-fluid">
+								<div class="row">
+									<div class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
+										<div class="slider-text-inner">
+											<div class="desc">
+												<!-- <h1>I am <br>a Designer</h1>
+													<h2>100% html5 bootstrap templates Made by <a href="https://colorlib.com/" target="_blank">colorlib.com</a></h2>
+													<p><a class="btn btn-primary btn-learn">View Portfolio <i class="icon-briefcase3"></i></a></p> -->
+											</div>
 										</div>
 									</div>
-									</div>
-
-
-
-
-
-								<div class="card">
-									<img class="card-img-top" src="<?=base_url('assets/images/R6vKaLYH_400x400.jpg');?>" alt="Card image cap">
-									<div class="card-body text-center">
-									<h5 class="card-title">Nom de l'auteur</h5>
-									<p class="card-text">Quelques informations supperficielles</p>
-									<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-									</div>
 								</div>
-								<div class="card">
-									<img class="card-img-top" src="<?=base_url('assets/images/R6vKaLYH_400x400.jpg');?>" alt="Card image cap">
-									<div class="card-body text-center">
-									<h5 class="card-title">Nom de l'auteur</h5>
-									<p class="card-text">Quelques informations supperficielles</p>
-									<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-									</div>
-								</div>
-								</div>
-
-
 							</div>
-							<br>
+						</li>
+						</ul>
+					</div>
+				</section>
+
+
+
+
+
+
+
+
+
+
+
+
+				<section class="colorlib-about" data-section="about">
+					<div class="colorlib-narrow-content">
+						<div class="row">
+							<div class="col-md-12">
+								<div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
+									<div class="col-md-12">
+										<div class="about-desc">
+											<span class="heading-meta">Auteurs</span>
+											<h2 class="colorlib-heading">Qui sommes-nous ?</h2>
+											<p>Quelques informations sur le groupe</p>
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									
+									<div class="container my-5 p-5 z-depth-1">
+
+										<style>
+										.w-200 {
+											width: 200px;
+										}
+										</style>
+
+										<!--Section: Content-->
+										<section class="team-section text-center dark-grey-text">
+											
+											<h6 class="font-weight-bold text-center grey-text text-uppercase small mb-4">Team</h6>
+											<!-- Section heading -->
+											<h2 class="font-weight-bold text-center dark-grey-text pb-2">Our Amazing Team</h2>
+											<hr class="w-header my-4">
+											<!-- Section description -->
+											<p class="lead text-center text-muted pt-2 mb-5">Enim ad minim exercitation ullamco laboris nisi ut ex aliquip.</p>
+
+											<!-- Grid row -->
+											<div class="row">
+
+												<!-- Grid column -->
+												<div class="col-md-4 mb-4">
+
+													<div class="w-200 mx-auto mb-4">
+														<img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(2).jpg" class="z-depth-1 rounded-circle img-fluid" alt="smaple image">
+													</div>
+													<h6 class="font-weight-bold">Alicia Deyns</h6>
+													<small class="text-muted">Co-funder & CEO</small>
+													<p class="mt-3 mb-4 text-muted">Sed ut perspiciatis unde omnis natus accusantium.</p>
+													<ul class="list-unstyled d-flex justify-content-center mt-3 mb-0 red-text">
+														<li><i class="fab fa-twitter mx-2"></i></li>
+														<li><i class="fab fa-facebook-f mx-2"></i></li>
+														<li><i class="fab fa-instagram mx-2"></i></li>
+														<li><i class="fab fa-linkedin-in mx-2"></i></li>
+													</ul>
+
+												</div>
+												<!-- Grid column -->
+												
+												<!-- Grid column -->
+												<div class="col-md-4 mb-4">
+
+													<div class="w-200 mx-auto mb-4">
+														<img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(15).jpg" class="z-depth-1 rounded-circle img-fluid mx-auto" alt="smaple image">
+													</div>
+													<h6 class="font-weight-bold">Kate Witson</h6>
+													<small class="text-muted">Lead Developer</small>
+													<p class="mt-3 mb-4 text-muted">Sed ut perspiciatis unde omnis natus accusantium.</p>
+													<ul class="list-unstyled d-flex justify-content-center mt-3 mb-0 red-text">
+														<li><i class="fab fa-twitter mx-2"></i></li>
+														<li><i class="fab fa-facebook-f mx-2"></i></li>
+														<li><i class="fab fa-instagram mx-2"></i></li>
+														<li><i class="fab fa-linkedin-in mx-2"></i></li>
+													</ul>
+
+												</div>
+												<!-- Grid column -->
+												
+												<!-- Grid column -->
+												<div class="col-md-4 mb-4">
+
+													<div class="w-200 mx-auto mb-4">
+														<img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(7).jpg" class="z-depth-1 rounded-circle img-fluid mx-auto" alt="smaple image">
+													</div>
+													<h6 class="font-weight-bold">Barbara Lenny</h6>
+													<small class="text-muted">Designer</small>
+													<p class="mt-3 mb-4 text-muted">Sed ut perspiciatis unde omnis natus accusantium.</p>
+													<ul class="list-unstyled d-flex justify-content-center mt-3 mb-0 red-text">
+														<li><i class="fab fa-twitter mx-2"></i></li>
+														<li><i class="fab fa-facebook-f mx-2"></i></li>
+														<li><i class="fab fa-instagram mx-2"></i></li>
+														<li><i class="fab fa-linkedin-in mx-2"></i></li>
+													</ul>
+
+												</div>
+												<!-- Grid column -->
+
+											</div>
+											<!-- Grid row -->
+											
+										</section>
+										<!--Section: Content-->
+									</div>    	  
+							</div>
+
 							<div class="row">
 								<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
 									<div class="hire">
-										<h2>I am happy to know you <br>that 300+ projects done sucessfully!</h2>
-										<a href="#" class="btn-hire">Hire me</a>
+										<h2>Nous sommes heureux de savoir <br>que plus de 300 livres ont été réalisés avec succès !</h2>
+										<a href="#" class="btn-hire">Voir les livres</a>
 									</div>
 								</div>
 							</div>
+						
 						</div>
 					</div>
 				</div>
@@ -225,135 +269,272 @@
 
 
 
+
+
+
+
+
+
+			
 			<section   data-section="buy">
 				<div class="container my-5 py-5 z-depth-1">
-
+					<div class="row">
+						<div class="col col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							<span class="heading-meta">Nos Livres</span>
+							<h2 class="colorlib-heading">Achetez quelques bons de nos livres</h2>
+						</div>
+					</div>
 
 					<!--Section: Content-->
 					<section class="text-center">
 
 						<!-- Section heading -->
-						<h3 class="font-weight-bold mb-5">Achetez nos livres</h3>
+						<!-- <h3 class="font-weight-bold mb-5">Achetez nos livres</h3> -->
 
 						<div class="row">
-						<div class="col-lg-6">
 
-							<!--Carousel Wrapper-->
-							<div id="carousel-thumb1" class="carousel slide carousel-fade carousel-thumbnails mb-5 pb-4" data-ride="carousel">
 
-							<!--Slides-->
-							<div class="carousel-inner text-center text-md-left" role="listbox">
-								<div class="carousel-item active">
-								<img src="<?=base_url('assets/images/R6vKaLYH_400x400.jpg');?>"
-									alt="First slide" class="img-fluid" width="300">
-								</div>
-								<div class="carousel-item">
-								<img src="<?=base_url('assets/images/R6vKaLYH_400x400.jpg');?>"
-									alt="Second slide" class="img-fluid" width="300">
-								</div>
-								<div class="carousel-item">
-								<img src="<?=base_url('assets/images/R6vKaLYH_400x400.jpg');?>"
-									alt="Third slide" class="img-fluid" width="300">
-								</div>
-							</div>
-							<!--/.Slides-->
 
-							<!--Thumbnails-->
-							<a class="carousel-control-prev" href="#carousel-thumb1" role="button" data-slide="prev">
-								<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-								<span class="sr-only">Previous</span>
-							</a>
-							<a class="carousel-control-next" href="#carousel-thumb1" role="button" data-slide="next">
-								<span class="carousel-control-next-icon" aria-hidden="true"></span>
-								<span class="sr-only">Next</span>
-							</a>
-							<!--/.Thumbnails-->
 
-							</div>
-							<!--/.Carousel Wrapper-->
-							
-							<div class="row mb-4">
-							<div class="col-md-12">
-								<div id="mdb-lightbox-ui"></div>
-								<div class="mdb-lightbox no-margin">
-								<figure class="col-md-4">
-									<a href="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Products/1.jpg"
-									data-size="1600x1067">
-									<img src="<?=base_url('assets/images/R6vKaLYH_400x400.jpg');?>"
-										class="img-fluid">
-									</a>
-								</figure>
-								<figure class="col-md-4">
-									<a href="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Products/2.jpg"
-									data-size="1600x1067">
-									<img src="<?=base_url('assets/images/R6vKaLYH_400x400.jpg');?>"
-										class="img-fluid">
-									</a>
-								</figure>
-								<figure class="col-md-4">
-									<a href="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Products/20.jpg"
-									data-size="1600x1067">
-									<img src="<?=base_url('assets/images/R6vKaLYH_400x400.jpg');?>"
-										class="img-fluid">
-									</a>
-								</figure>
-								</div>
-							</div>
-							</div>
-							
+
+
+
+						<div class="container my-5 py-5 z-depth-1">
+
+
+<!--Section: Content-->
+<section class="px-md-5 mx-md-5 text-center text-lg-left dark-grey-text">
+
+  <!--Grid row-->
+  <div class="row">
+
+	<!--Grid column-->
+	<div class="col-md-6 mb-4 mb-md-0">
+
+	  <h3 class="font-weight-bold">Ce livre vous est offert</h3>
+
+	  <p class="text-muted">Télécharger au format éléctronique notre livre cent pour cent offert.</p>
+
+	  <a class="btn btn-info btn-md ml-0" href="#" role="button">Télécharger<i class="fa fa-magic ml-2"></i></a>
+
+	</div>
+	<!--Grid column-->
+
+	<!--Grid column-->
+	<div class="col-md-6 mb-4 mb-md-0">
+
+	  <!--Image-->
+	  <div class="view overlay z-depth-1-half">
+		<img src="<?=base_url('assets/images/R6vKaLYH_400x400.jpg');?>" width="200" class="img-fluid"
+		  alt="">
+		<a href="#">
+		  <div class="mask rgba-white-light"></div>
+		</a>
+	  </div>
+
+	</div>
+	<!--Grid column-->
+
+  </div>
+  <!--Grid row-->
+
+
+</section>
+<!--Section: Content-->
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+						
+						
+						
 						</div>
-
-						<div class="col-lg-5 text-center text-md-left">
-
-							<h2 class="h2-responsive text-center text-md-left product-name font-weight-bold dark-grey-text mb-1 ml-xl-0 ml-4">Nom du livre</h2>
-							
-							<h3 class="h3-responsive text-center text-md-left mb-5 ml-xl-0 ml-4">
-							<span class="red-text font-weight-bold">
-								<strong>$1449</strong>
-							</span>
-							<span class="grey-text">
-								<small>
-								<s>$1789</s>
-								</small>
-							</span>
-							</h3>
-
-							<div class="font-weight-normal">
-							
-							<p class="ml-xl-0 ml-4">Quelques informations supplementaires sur le livre</p>
-
-							<p class="ml-xl-0 ml-4">
-								<strong>Auteur: </strong>Jhon Doe</p>
-							<p class="ml-xl-0 ml-4">
-								<strong>Pages: </strong>450</p>
-							<p class="ml-xl-0 ml-4">
-								<strong>Edition: </strong>Kinshasa Limete</p>
-							
-							<p class="ml-xl-0 ml-4">
-								<strong>Publication: </strong>12/12/XXXX</p>
-							
-							<div class="mt-5">
-								<div class="row text-center text-md-left">
-								
-									<div class="row mt-3 mb-4">
-									<div class="col-md-12 text-center text-md-left text-md-right">
-										<button class="btn btn-primary btn-rounded">
-										<i class="fas fa-cart-plus mr-2" aria-hidden="true"></i>Ajouter au panier</button>
-									</div>
-									</div>
-
-								</div>
-
-							</div>
-
-						</div>
-						</div>
+						
 
 					</section>
 					<!--Section: Content-->
 
 
 				</div>
+
+
+
+
+
+
+
+				<div class="container my-5 py-3 z-depth-1 rounded">
+
+
+						<!--Section: Content-->
+						<section class="dark-grey-text">
+
+						<!-- Shopping Cart table -->
+						<div class="table-responsive">
+
+							<table class="table product-table mb-0">
+
+							<!-- Table head -->
+							<thead class="mdb-color lighten-5">
+								<tr>
+								<th></th>
+								<th class="font-weight-bold">
+									<strong>Titre</strong>
+								</th>
+								<th class="font-weight-bold">
+									<strong>Auteur</strong>
+								</th>
+								<th></th>
+								<th class="font-weight-bold">
+									<strong>Pages</strong>
+								</th>
+								<th class="font-weight-bold">
+									<strong>Qté</strong>
+								</th>
+								<th class="font-weight-bold">
+									<strong>Montant</strong>
+								</th>
+								<th></th>
+								</tr>
+							</thead>
+							<!-- /.Table head -->
+
+							<!-- Table body -->
+							<tbody>
+								<?php $i = 0;
+								for($i = 0; $i < 3; $i++){
+									echo '
+									<!-- First row -->
+									<tr>
+									<th scope="row">
+										<img src="" alt="" class="img-fluid z-depth-0">
+									</th>
+									<td>
+										<h5 class="mt-3">
+										<strong>Livre X</strong>
+										</h5>
+									</td>
+									<td>Jhon Doe</td>
+									<td></td>
+									<td>-</td>
+									<td>
+										<input type="number" value="2" aria-label="Search" class="form-control" style="width: 100px">
+									</td>
+									<td class="font-weight-bold">
+										<strong>-</strong>
+									</td>
+									<td>
+										<button type="button" class="btn btn-sm btn-primary" data-toggle="tooltip" data-placement="top"
+										title="Remove item">X
+										</button>
+									</td>
+									</tr>
+									<!-- /.First row -->
+									';
+								}
+								?>
+								
+								
+
+								<!-- Fourth row -->
+								<tr>
+								<td colspan="3"></td>
+								<td>
+									<h4 class="mt-2">
+									<strong>Total</strong>
+									</h4>
+								</td>
+								<td class="text-right">
+									<h4 class="mt-2">
+									<strong>$00.000</strong>
+									</h4>
+								</td>
+								<td colspan="3" class="text-right">
+									<button type="button" class="btn btn-primary btn-rounded">Achat complet
+									<i class="fas fa-angle-right right"></i>
+									</button>
+								</td>
+								</tr>
+								<!-- Fourth row -->
+
+							</tbody>
+							<!-- /.Table body -->
+
+							</table>
+
+						</div>
+						<!-- /.Shopping Cart table -->
+
+						</section>
+						<!--Section: Content-->
+
+
+						</div>
+
+
+
+
+
+
+
+
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							<span class="heading-meta">A découvrir</span>
+							<!-- <h2 class="colorlib-heading">Autres Livres</h2> -->
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="blog-entry">
+								<a href="blog.html" class="blog-img"><img src="<?=base_url('assets/images/R6vKaLYH_400x400.jpg');?>" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
+								<div class="desc">
+									<span><small>April 14, 2018 </small> | <small> Web Design </small> | <small> <i class="icon-bubble3"></i> 4</small></span>
+									<h3><a href="blog.html">Renovating National Gallery</a></h3>
+									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInRight">
+							<div class="blog-entry">
+								<a href="blog.html" class="blog-img"><img src="<?=base_url('assets/images/R6vKaLYH_400x400.jpg');?>" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
+								<div class="desc">
+									<span><small>April 14, 2018 </small> | <small> Web Design </small> | <small> <i class="icon-bubble3"></i> 4</small></span>
+									<h3><a href="blog.html">Wordpress for a Beginner</a></h3>
+									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="blog-entry">
+								<a href="blog.html" class="blog-img"><img src="<?=base_url('assets/images/R6vKaLYH_400x400.jpg');?>" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
+								<div class="desc">
+									<span><small>April 14, 2018 </small> | <small> Inspiration </small> | <small> <i class="icon-bubble3"></i> 4</small></span>
+									<h3><a href="blog.html">Make website from scratch</a></h3>
+									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+
+
+
+
+
 
 			</section>
 			<!--Section: Content-->
@@ -363,290 +544,107 @@
 
 
 
-			
-			<section class="colorlib-services" data-section="services">
-				<div class="colorlib-narrow-content">
-					<div class="row">
-						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-							<span class="heading-meta">What I do?</span>
-							<h2 class="colorlib-heading">Here are some of my expertise</h2>
-						</div>
-					</div>
-					<div class="row row-pt-md">
-						<div class="col-md-4 text-center animate-box">
-							<div class="services color-1">
-								<span class="icon">
-									<i class="icon-bulb"></i>
-								</span>
-								<div class="desc">
-									<h3>Innovative Ideas</h3>
-									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4 text-center animate-box">
-							<div class="services color-2">
-								<span class="icon">
-									<i class="icon-data"></i>
-								</span>
-								<div class="desc">
-									<h3>Software</h3>
-									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4 text-center animate-box">
-							<div class="services color-3">
-								<span class="icon">
-									<i class="icon-phone3"></i>
-								</span>
-								<div class="desc">
-									<h3>Application</h3>
-									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4 text-center animate-box">
-							<div class="services color-4">
-								<span class="icon">
-									<i class="icon-layers2"></i>
-								</span>
-								<div class="desc">
-									<h3>Graphic Design</h3>
-									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4 text-center animate-box">
-							<div class="services color-5">
-								<span class="icon">
-									<i class="icon-data"></i>
-								</span>
-								<div class="desc">
-									<h3>Software</h3>
-									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4 text-center animate-box">
-							<div class="services color-6">
-								<span class="icon">
-									<i class="icon-phone3"></i>
-								</span>
-								<div class="desc">
-									<h3>Application</h3>
-									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-			
-			<div id="colorlib-counter" class="colorlib-counters" style="background-image: url(images/cover_bg_1.jpg);" data-stellar-background-ratio="0.5">
-				<div class="overlay"></div>
-				<div class="colorlib-narrow-content">
-					<div class="row">
-					</div>
-					<div class="row">
-						<div class="col-md-3 text-center animate-box">
-							<span class="colorlib-counter js-counter" data-from="0" data-to="309" data-speed="5000" data-refresh-interval="50"></span>
-							<span class="colorlib-counter-label">Cups of coffee</span>
-						</div>
-						<div class="col-md-3 text-center animate-box">
-							<span class="colorlib-counter js-counter" data-from="0" data-to="356" data-speed="5000" data-refresh-interval="50"></span>
-							<span class="colorlib-counter-label">Projects</span>
-						</div>
-						<div class="col-md-3 text-center animate-box">
-							<span class="colorlib-counter js-counter" data-from="0" data-to="30" data-speed="5000" data-refresh-interval="50"></span>
-							<span class="colorlib-counter-label">Clients</span>
-						</div>
-						<div class="col-md-3 text-center animate-box">
-							<span class="colorlib-counter js-counter" data-from="0" data-to="10" data-speed="5000" data-refresh-interval="50"></span>
-							<span class="colorlib-counter-label">Partners</span>
-						</div>
-					</div>
-				</div>
-			</div>
 
-			<section class="colorlib-skills" data-section="skills">
-				<div class="colorlib-narrow-content">
-					<div class="row">
-						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-							<span class="heading-meta">My Specialty</span>
-							<h2 class="colorlib-heading animate-box">My Skills</h2>
-						</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			<section data-section="blog">
+				<div class="container my-5 py-5 z-depth-1">
+
+					<!--Grid row-->
+					<div class="row d-flex justify-content-center">
+
+					<!--Grid column-->
+					<div class="col-md-8">
+
+
+						<!--Section: Content-->
+						<section class="px-md-5 mx-md-5 dark-grey-text">
+
+						<p class="font-weight-bold text-center">Blog sidebar</p>
+
+						<style>
+							.news-tile .card-title {
+							position: absolute;
+							bottom: 15px;
+							left: 40px;
+							}
+
+							.rgba-stylish-strong {
+							background-color: rgba(62, 69, 81, .5);
+							}
+						</style>
+
+						<!-- Form subscription -->
+						<form class="text-center border border-light p-4 mb-4" action="#!">
+
+							<p class="font-weight-bold">Subscribe</p>
+
+							<p>Join our mailing list. We write rarely, but only the best content.</p>
+
+							<p>
+							<a href="" target="_blank">See the last newsletter</a>
+							</p>
+
+							<!-- Name -->
+							<div class="md-form md-outline">
+							<input type="text" id="form1" class="form-control">
+							<label for="form1">Your name</label>
+							</div>
+
+							<!-- Email -->
+
+							<div class="md-form md-outline">
+							<input type="email" id="form2" class="form-control">
+							<label for="form2">Your e-mail</label>
+							</div>
+
+							<!-- Sign in button -->
+							<button class="btn btn-info btn-block mb-0" type="submit">Sign in</button>
+
+
+						</form>
+						<!-- Form subscription -->
+					
+					
+
+						</section>
+						<!--Section: Content-->
+						
+
 					</div>
-					<div class="row">
-						<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
-							<p>The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn’t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.</p>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-							<div class="progress-wrap">
-								<h3>Photoshop</h3>
-								<div class="progress">
-								 	<div class="progress-bar color-1" role="progressbar" aria-valuenow="75"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:75%">
-								    <span>75%</span>
-								  	</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
-							<div class="progress-wrap">
-								<h3>jQuery</h3>
-								<div class="progress">
-								 	<div class="progress-bar color-2" role="progressbar" aria-valuenow="60"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:60%">
-								    <span>60%</span>
-								  	</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-							<div class="progress-wrap">
-								<h3>HTML5</h3>
-								<div class="progress">
-								 	<div class="progress-bar color-3" role="progressbar" aria-valuenow="85"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:85%">
-								    <span>85%</span>
-								  	</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
-							<div class="progress-wrap">
-								<h3>CSS3</h3>
-								<div class="progress">
-								 	<div class="progress-bar color-4" role="progressbar" aria-valuenow="90"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:90%">
-								    <span>90%</span>
-								  	</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-							<div class="progress-wrap">
-								<h3>WordPress</h3>
-								<div class="progress">
-								 	<div class="progress-bar color-5" role="progressbar" aria-valuenow="70"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:70%">
-								    <span>70%</span>
-								  	</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
-							<div class="progress-wrap">
-								<h3>SEO</h3>
-								<div class="progress">
-								 	<div class="progress-bar color-6" role="progressbar" aria-valuenow="80"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:80%">
-								    <span>80%</span>
-								  	</div>
-								</div>
-							</div>
-						</div>
+					<!--Grid column-->
+
 					</div>
-				</div>
+					<!--Grid row-->
+
+
+
+					</div>
+
+
 			</section>
 
-			<section class="colorlib-education" data-section="education">
-				<div class="colorlib-narrow-content">
-					<div class="row">
-						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-							<span class="heading-meta">Education</span>
-							<h2 class="colorlib-heading animate-box">Education</h2>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
-							<div class="fancy-collapse-panel">
-								<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-									<div class="panel panel-default">
-									    <div class="panel-heading" role="tab" id="headingOne">
-									        <h4 class="panel-title">
-									            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Master Degree Graphic Design
-									            </a>
-									        </h4>
-									    </div>
-									    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
-									         <div class="panel-body">
-									            <div class="row">
-										      		<div class="col-md-6">
-										      			<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
-										      		</div>
-										      		<div class="col-md-6">
-										      			<p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-										      		</div>
-										      	</div>
-									         </div>
-									    </div>
-									</div>
-									<div class="panel panel-default">
-									    <div class="panel-heading" role="tab" id="headingTwo">
-									        <h4 class="panel-title">
-									            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Bachelor Degree of Computer Science
-									            </a>
-									        </h4>
-									    </div>
-									    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-									        <div class="panel-body">
-									            <p>Far far away, behind the word <strong>mountains</strong>, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-													<ul>
-														<li>Separated they live in Bookmarksgrove right</li>
-														<li>Separated they live in Bookmarksgrove right</li>
-													</ul>
-									        </div>
-									    </div>
-									</div>
-									<div class="panel panel-default">
-									    <div class="panel-heading" role="tab" id="headingThree">
-									        <h4 class="panel-title">
-									            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Diploma in Information Technology
-									            </a>
-									        </h4>
-									    </div>
-									    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-									        <div class="panel-body">
-									            <p>Far far away, behind the word <strong>mountains</strong>, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>	
-									        </div>
-									    </div>
-									</div>
 
-									<div class="panel panel-default">
-									    <div class="panel-heading" role="tab" id="headingFour">
-									        <h4 class="panel-title">
-									            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">Diploma in Information Technology
-									            </a>
-									        </h4>
-									    </div>
-									    <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
-									        <div class="panel-body">
-									            <p>Far far away, behind the word <strong>mountains</strong>, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>	
-									        </div>
-									    </div>
-									</div>
 
-									<div class="panel panel-default">
-									    <div class="panel-heading" role="tab" id="headingFive">
-									        <h4 class="panel-title">
-									            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">High School Secondary Education
-									            </a>
-									        </h4>
-									    </div>
-									    <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
-									        <div class="panel-body">
-									            <p>Far far away, behind the word <strong>mountains</strong>, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>	
-									        </div>
-									    </div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
+
+
+
+
+
+
+
 
 			<section class="colorlib-experience" data-section="experience">
 				<div class="colorlib-narrow-content">
@@ -734,166 +732,12 @@
 				</div>
 			</section>
 
-			<section class="colorlib-work" data-section="work">
-				<div class="colorlib-narrow-content">
-					<div class="row">
-						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-							<span class="heading-meta">My Work</span>
-							<h2 class="colorlib-heading animate-box">Recent Work</h2>
-						</div>
-					</div>
-					<div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
-						<div class="col-md-12">
-							<p class="work-menu"><span><a href="#" class="active">Graphic Design</a></span> <span><a href="#">Web Design</a></span> <span><a href="#">Software</a></span> <span><a href="#">Apps</a></span></p>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-							<div class="project" style="background-image: url(images/img-1.jpg);">
-								<div class="desc">
-									<div class="con">
-										<h3><a href="work.html">Work 01</a></h3>
-										<span>Website</span>
-										<p class="icon">
-											<span><a href="#"><i class="icon-share3"></i></a></span>
-											<span><a href="#"><i class="icon-eye"></i> 100</a></span>
-											<span><a href="#"><i class="icon-heart"></i> 49</a></span>
-										</p>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
-							<div class="project" style="background-image: url(images/img-2.jpg);">
-								<div class="desc">
-									<div class="con">
-										<h3><a href="work.html">Work 02</a></h3>
-										<span>Animation</span>
-										<p class="icon">
-											<span><a href="#"><i class="icon-share3"></i></a></span>
-											<span><a href="#"><i class="icon-eye"></i> 100</a></span>
-											<span><a href="#"><i class="icon-heart"></i> 49</a></span>
-										</p>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInTop">
-							<div class="project" style="background-image: url(images/img-3.jpg);">
-								<div class="desc">
-									<div class="con">
-										<h3><a href="work.html">Work 03</a></h3>
-										<span>Illustration</span>
-										<p class="icon">
-											<span><a href="#"><i class="icon-share3"></i></a></span>
-											<span><a href="#"><i class="icon-eye"></i> 100</a></span>
-											<span><a href="#"><i class="icon-heart"></i> 49</a></span>
-										</p>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInBottom">
-							<div class="project" style="background-image: url(images/img-4.jpg);">
-								<div class="desc">
-									<div class="con">
-										<h3><a href="work.html">Work 04</a></h3>
-										<span>Application</span>
-										<p class="icon">
-											<span><a href="#"><i class="icon-share3"></i></a></span>
-											<span><a href="#"><i class="icon-eye"></i> 100</a></span>
-											<span><a href="#"><i class="icon-heart"></i> 49</a></span>
-										</p>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-							<div class="project" style="background-image: url(images/img-5.jpg);">
-								<div class="desc">
-									<div class="con">
-										<h3><a href="work.html">Work 05</a></h3>
-										<span>Graphic, Logo</span>
-										<p class="icon">
-											<span><a href="#"><i class="icon-share3"></i></a></span>
-											<span><a href="#"><i class="icon-eye"></i> 100</a></span>
-											<span><a href="#"><i class="icon-heart"></i> 49</a></span>
-										</p>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
-							<div class="project" style="background-image: url(images/img-6.jpg);">
-								<div class="desc">
-									<div class="con">
-										<h3><a href="work.html">Work 06</a></h3>
-										<span>Web Design</span>
-										<p class="icon">
-											<span><a href="#"><i class="icon-share3"></i></a></span>
-											<span><a href="#"><i class="icon-eye"></i> 100</a></span>
-											<span><a href="#"><i class="icon-heart"></i> 49</a></span>
-										</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-12 animate-box">
-							<p><a href="#" class="btn btn-primary btn-lg btn-load-more">Load more <i class="icon-reload"></i></a></p>
-						</div>
-					</div>
-				</div>
-			</section>
 
-			<section class="colorlib-blog" data-section="blog">
-				<div class="colorlib-narrow-content">
-					<div class="row">
-						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-							<span class="heading-meta">Read</span>
-							<h2 class="colorlib-heading">Recent Blog</h2>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
-							<div class="blog-entry">
-								<a href="blog.html" class="blog-img"><img src="images/blog-1.jpg" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
-								<div class="desc">
-									<span><small>April 14, 2018 </small> | <small> Web Design </small> | <small> <i class="icon-bubble3"></i> 4</small></span>
-									<h3><a href="blog.html">Renovating National Gallery</a></h3>
-									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInRight">
-							<div class="blog-entry">
-								<a href="blog.html" class="blog-img"><img src="images/blog-2.jpg" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
-								<div class="desc">
-									<span><small>April 14, 2018 </small> | <small> Web Design </small> | <small> <i class="icon-bubble3"></i> 4</small></span>
-									<h3><a href="blog.html">Wordpress for a Beginner</a></h3>
-									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
-							<div class="blog-entry">
-								<a href="blog.html" class="blog-img"><img src="images/blog-3.jpg" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
-								<div class="desc">
-									<span><small>April 14, 2018 </small> | <small> Inspiration </small> | <small> <i class="icon-bubble3"></i> 4</small></span>
-									<h3><a href="blog.html">Make website from scratch</a></h3>
-									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-12 animate-box">
-							<p><a href="#" class="btn btn-primary btn-lg btn-load-more">Load more <i class="icon-reload"></i></a></p>
-						</div>
-					</div>
-				</div>
-			</section>
+
+
+
+
+
 
 			<section class="colorlib-contact" data-section="contact">
 				<div class="colorlib-narrow-content">
@@ -962,12 +806,21 @@
 
 		</div><!-- end:colorlib-main -->
 	</div><!-- end:container-wrap -->
-	</div><!-- end:colorlib-page -->
+</div><!-- end:colorlib-page -->
 	
+
+
+
+
+
+
+
+
+
 	<!-- jQuery -->
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 	<!-- <script src="<?=base_url('assets/js/jquery-3-3-1.min.js');?>"></script>
 	<script src="<?=base_url('assets/js/popper.min.js');?>"></script>
 	<script src="<?=base_url('assets/js/bootstrap.min.js');?>"></script> -->
