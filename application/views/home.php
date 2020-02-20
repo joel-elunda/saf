@@ -233,7 +233,7 @@
 					<section class="text-center">
 
 						<!-- Section heading -->
-						<h3 class="font-weight-bold mb-5">Product Details</h3>
+						<h3 class="font-weight-bold mb-5">Achetez nos livres</h3>
 
 						<div class="row">
 						<div class="col-lg-6">
@@ -244,16 +244,16 @@
 							<!--Slides-->
 							<div class="carousel-inner text-center text-md-left" role="listbox">
 								<div class="carousel-item active">
-								<img src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Products/1.jpg"
-									alt="First slide" class="img-fluid">
+								<img src="<?=base_url('assets/images/R6vKaLYH_400x400.jpg');?>"
+									alt="First slide" class="img-fluid" width="300">
 								</div>
 								<div class="carousel-item">
-								<img src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Products/2.jpg"
-									alt="Second slide" class="img-fluid">
+								<img src="<?=base_url('assets/images/R6vKaLYH_400x400.jpg');?>"
+									alt="Second slide" class="img-fluid" width="300">
 								</div>
 								<div class="carousel-item">
-								<img src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Products/20.jpg"
-									alt="Third slide" class="img-fluid">
+								<img src="<?=base_url('assets/images/R6vKaLYH_400x400.jpg');?>"
+									alt="Third slide" class="img-fluid" width="300">
 								</div>
 							</div>
 							<!--/.Slides-->
@@ -279,21 +279,21 @@
 								<figure class="col-md-4">
 									<a href="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Products/1.jpg"
 									data-size="1600x1067">
-									<img src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Products/1.jpg"
+									<img src="<?=base_url('assets/images/R6vKaLYH_400x400.jpg');?>"
 										class="img-fluid">
 									</a>
 								</figure>
 								<figure class="col-md-4">
 									<a href="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Products/2.jpg"
 									data-size="1600x1067">
-									<img src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Products/2.jpg"
+									<img src="<?=base_url('assets/images/R6vKaLYH_400x400.jpg');?>"
 										class="img-fluid">
 									</a>
 								</figure>
 								<figure class="col-md-4">
 									<a href="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Products/20.jpg"
 									data-size="1600x1067">
-									<img src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Products/20.jpg"
+									<img src="<?=base_url('assets/images/R6vKaLYH_400x400.jpg');?>"
 										class="img-fluid">
 									</a>
 								</figure>
@@ -305,10 +305,8 @@
 
 						<div class="col-lg-5 text-center text-md-left">
 
-							<h2 class="h2-responsive text-center text-md-left product-name font-weight-bold dark-grey-text mb-1 ml-xl-0 ml-4">iPad PRO</h2>
-							<span class="badge badge-danger product mb-4 ml-xl-0 ml-4">bestseller</span>
-							<span class="badge badge-success product mb-4 ml-2">SALE</span>
-
+							<h2 class="h2-responsive text-center text-md-left product-name font-weight-bold dark-grey-text mb-1 ml-xl-0 ml-4">Nom du livre</h2>
+							
 							<h3 class="h3-responsive text-center text-md-left mb-5 ml-xl-0 ml-4">
 							<span class="red-text font-weight-bold">
 								<strong>$1449</strong>
@@ -325,13 +323,14 @@
 							<p class="ml-xl-0 ml-4">Quelques informations supplementaires sur le livre</p>
 
 							<p class="ml-xl-0 ml-4">
-								<strong>Storage: </strong>64GB</p>
+								<strong>Auteur: </strong>Jhon Doe</p>
 							<p class="ml-xl-0 ml-4">
-								<strong>Size: </strong>9.6-inch</p>
+								<strong>Pages: </strong>450</p>
 							<p class="ml-xl-0 ml-4">
-								<strong>Resolution: </strong>2048 x 1536</p>
+								<strong>Edition: </strong>Kinshasa Limete</p>
+							
 							<p class="ml-xl-0 ml-4">
-								<strong>Availability: </strong>In stock</p>
+								<strong>Publication: </strong>12/12/XXXX</p>
 							
 							<div class="mt-5">
 								<div class="row text-center text-md-left">
@@ -339,7 +338,7 @@
 									<div class="row mt-3 mb-4">
 									<div class="col-md-12 text-center text-md-left text-md-right">
 										<button class="btn btn-primary btn-rounded">
-										<i class="fas fa-cart-plus mr-2" aria-hidden="true"></i> Add to cart</button>
+										<i class="fas fa-cart-plus mr-2" aria-hidden="true"></i>Ajouter au panier</button>
 									</div>
 									</div>
 
