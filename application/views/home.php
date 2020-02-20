@@ -162,8 +162,8 @@
 
 
 
-<!-- Modal -->
-<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+									<!-- Modal -->
+									<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
 									<div class="modal-dialog modal-dialog-centered" role="document">
 										<div class="modal-content">
 										<div class="modal-header">
@@ -207,6 +207,7 @@
 
 
 							</div>
+							<br>
 							<div class="row">
 								<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
 									<div class="hire">
@@ -823,9 +824,10 @@
 	</div><!-- end:colorlib-page -->
 	
 	<!-- jQuery -->
-	<script src="<?=base_url('assets/js/jquery.min.js');?>"></script>
+	<script src="<?=base_url('assets/js/jquery-3-3-1.min.js');?>"></script>
 	<script src="<?=base_url('assets/js/popper.min.js');?>"></script>
 	<script src="<?=base_url('assets/js/bootstrap.min.js');?>"></script>
+	<script src="<?=base_url('assets/js/jquery.min.js');?>"></script>
 	<!-- jQuery Easing -->
 	<script src="<?=base_url('assets/js/jquery.easing.1.3.js');?>"></script>
 	<!-- Bootstrap -->
