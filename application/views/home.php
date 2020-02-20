@@ -39,9 +39,9 @@
 	<!-- Owl Carousel -->
 	<link rel="stylesheet" href="<?=base_url('assets/css/owl.carousel.min.css');?>">
 	<link rel="stylesheet" href="<?=base_url('assets/css/owl.theme.default.min.css');?>">
+	<link rel="stylesheet" href="<?=base_url('assets/css/bootstrap.min.css');?>">
 	<!-- Theme style  -->
 	<link rel="stylesheet" href="<?=base_url('assets/css/style.css');?>">
-
 	<!-- Modernizr JS -->
 	<script src="<?=base_url('assets/js/modernizr-2.6.2.min.js');?>"></script>
 	<!-- FOR IE9 below -->
@@ -136,38 +136,76 @@
 							<div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
 								<div class="col-md-12">
 									<div class="about-desc">
-										<span class="heading-meta">About Us</span>
-										<h2 class="colorlib-heading">Who Am I?</h2>
+										<span class="heading-meta">A propos de nous</span>
+										<h2 class="colorlib-heading">Qui sommes-nous ?</h2>
 										<p><strong>Hi I'm Jackson Ford</strong> On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word "and" and the Little Blind Text should turn around and return to its own, safe country.</p>
 										<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
 									</div>
 								</div>
 							</div>
 							<div class="row">
-								<div class="col-md-3 animate-box" data-animate-effect="fadeInLeft">
-									<div class="services color-1">
-										<span class="icon2"><i class="icon-bulb"></i></span>
-										<h3>Graphic Design</h3>
+								
+								
+							<div class="card-deck">
+								<div class="card">
+									<img class="card-img-top" src="<?=base_url('assets/images/R6vKaLYH_400x400.jpg');?>" width="90" alt="Card image cap">
+									<div class="card-body text-center">
+										<h5 class="card-title">Nom de l'auteur</h5>
+										<p class="card-text">Quelques informations supperficielles</p>
+										<!-- Button trigger modal -->
+										<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+										Bibliographie
+										</button>
 									</div>
 								</div>
-								<div class="col-md-3 animate-box" data-animate-effect="fadeInRight">
-									<div class="services color-2">
-										<span class="icon2"><i class="icon-globe-outline"></i></span>
-										<h3>Web Design</h3>
+
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+									<div class="modal-dialog modal-dialog-centered" role="document">
+										<div class="modal-content">
+										<div class="modal-header">
+											<h5 class="modal-title" id="exampleModalCenterTitle">Modal title</h5>
+											<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+											<span aria-hidden="true">&times;</span>
+											</button>
+										</div>
+										<div class="modal-body">
+											...
+										</div>
+										<div class="modal-footer">
+											<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+											<button type="button" class="btn btn-primary">Save changes</button>
+										</div>
+										</div>
+									</div>
+									</div>
+
+
+
+
+
+								<div class="card">
+									<img class="card-img-top" src="<?=base_url('assets/images/R6vKaLYH_400x400.jpg');?>" alt="Card image cap">
+									<div class="card-body text-center">
+									<h5 class="card-title">Nom de l'auteur</h5>
+									<p class="card-text">Quelques informations supperficielles</p>
+									<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
 									</div>
 								</div>
-								<div class="col-md-3 animate-box" data-animate-effect="fadeInTop">
-									<div class="services color-3">
-										<span class="icon2"><i class="icon-data"></i></span>
-										<h3>Software</h3>
+								<div class="card">
+									<img class="card-img-top" src="<?=base_url('assets/images/R6vKaLYH_400x400.jpg');?>" alt="Card image cap">
+									<div class="card-body text-center">
+									<h5 class="card-title">Nom de l'auteur</h5>
+									<p class="card-text">Quelques informations supperficielles</p>
+									<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
 									</div>
 								</div>
-								<div class="col-md-3 animate-box" data-animate-effect="fadeInBottom">
-									<div class="services color-4">
-										<span class="icon2"><i class="icon-phone3"></i></span>
-										<h3>Application</h3>
-									</div>
 								</div>
+
+
 							</div>
 							<div class="row">
 								<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
@@ -783,9 +821,11 @@
 		</div><!-- end:colorlib-main -->
 	</div><!-- end:container-wrap -->
 	</div><!-- end:colorlib-page -->
-
+	
 	<!-- jQuery -->
 	<script src="<?=base_url('assets/js/jquery.min.js');?>"></script>
+	<script src="<?=base_url('assets/js/popper.min.js');?>"></script>
+	<script src="<?=base_url('assets/js/bootstrap.min.js');?>"></script>
 	<!-- jQuery Easing -->
 	<script src="<?=base_url('assets/js/jquery.easing.1.3.js');?>"></script>
 	<!-- Bootstrap -->
