@@ -34,27 +34,25 @@ class Blog extends CI_Controller {
     /** Cette fonction permet d'ajouter le commentaire  d'un
      *  utilisateur
      *  
-     *  Elle prend en paramètre le ID et le commentaire d'un user
      *  @return boolean
      *  FALSE :  (si le commentaire existe ou si il ne repond pas au form validation)
-     *  TRUE :  (Dans le cas contraire) 
+     *  TRUE  :  (Dans le cas contraire) 
      * 
      *  La variable $comment est un tableau qui contient les infos du commentaire
      *  (Date du commentaire, User, Contenu, ...)
     */
-    public function add_comment($id_user, $comment)
+    public function add_comment()
     {
         return FALSE;
     }
 
     /** Cette fonction supprime le commentaire d'un user
      * 
-     *  Elle prend en paramètre le ID du commentaire
      *  @return boolean
      *  TRUE :  (si le commentaire a été supprimé)
      *  FALSE :   (Dans le cas contraire) 
      */
-    public function remove_comment($id_comment) 
+    public function remove_comment() 
     {
         return FALSE;
     }
