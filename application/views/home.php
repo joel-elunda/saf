@@ -159,13 +159,12 @@
 										<div class="about-desc">
 											<span class="heading-meta">Auteurs</span>
 											<h2 class="colorlib-heading">Qui sommes-nous ?</h2>
-											<p>Quelques informations sur le groupe</p>
 										</div>
 									</div>
 								</div>
 								<div class="row">
 									
-									<div class="container my-5 p-5 z-depth-1">
+									<div class="container z-depth-1">
 
 										<style>
 										.w-200 {
@@ -175,12 +174,7 @@
 
 										<!--Section: Content-->
 										<section class="team-section text-center dark-grey-text">
-											
-											<h6 class="font-weight-bold text-center grey-text text-uppercase small mb-4">Team</h6>
-											<!-- Section heading -->
-											<h2 class="font-weight-bold text-center dark-grey-text pb-2">Our Amazing Team</h2>
-											<hr class="w-header my-4">
-											<!-- Section description -->
+										
 											<p class="lead text-center text-muted pt-2 mb-5">Enim ad minim exercitation ullamco laboris nisi ut ex aliquip.</p>
 
 											<!-- Grid row -->
@@ -496,36 +490,21 @@
 						</div>
 					</div>
 					<div class="row">
-						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
+						<?php $i = 0; 
+						for($i = 0; $i < 4; $i++){
+						
+							echo '<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
 							<div class="blog-entry">
-								<a href="blog.html" class="blog-img"><img src="<?=base_url('assets/images/R6vKaLYH_400x400.jpg');?>" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
+								<a href="blog.html" class="blog-img"><img src='. base_url("assets/images/R6vKaLYH_400x400.jpg") .' class="img-responsive" width="15g0" alt="HTML5 Bootstrap Template by colorlib.com"></a>
 								<div class="desc">
-									<span><small>April 14, 2018 </small> | <small> Web Design </small> | <small> <i class="icon-bubble3"></i> 4</small></span>
-									<h3><a href="blog.html">Renovating National Gallery</a></h3>
-									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+									<span><small>April 14, 2018 </small> | <small> Auteur </small> | <small> <i class="icon-bubble3"></i> 4</small></span>
+									<h3><a href="blog.html">Titre du Livre</a></h3>
+									<p>Extrait du contenu du livre.</p>
 								</div>
 							</div>
-						</div>
-						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInRight">
-							<div class="blog-entry">
-								<a href="blog.html" class="blog-img"><img src="<?=base_url('assets/images/R6vKaLYH_400x400.jpg');?>" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
-								<div class="desc">
-									<span><small>April 14, 2018 </small> | <small> Web Design </small> | <small> <i class="icon-bubble3"></i> 4</small></span>
-									<h3><a href="blog.html">Wordpress for a Beginner</a></h3>
-									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
-							<div class="blog-entry">
-								<a href="blog.html" class="blog-img"><img src="<?=base_url('assets/images/R6vKaLYH_400x400.jpg');?>" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
-								<div class="desc">
-									<span><small>April 14, 2018 </small> | <small> Inspiration </small> | <small> <i class="icon-bubble3"></i> 4</small></span>
-									<h3><a href="blog.html">Make website from scratch</a></h3>
-									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-								</div>
-							</div>
-						</div>
+						</div>';
+							
+						}?>
 					</div>
 				</div>
 
