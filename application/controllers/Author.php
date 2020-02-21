@@ -15,7 +15,7 @@ class Author extends CI_Controller {
      *  TRUE  :  (Dans le cas contraire) 
      * 
      *  La variable $auteur est un tableau qui contient les infos de l'auteur
-     *  (Le nom et l'email)
+     *  (Le nom et l'email ... )
     */
 	public function add_author()
 	{
@@ -26,7 +26,7 @@ class Author extends CI_Controller {
      * 
      *  @return boolean
      *  TRUE  :    (si l'auteur a été supprimé)
-     *  FALSE :   (Dans le cas contraire) 
+     *  FALSE :    (Dans le cas contraire) 
      */
 	public function remove_author()
 	{
