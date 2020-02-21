@@ -69,6 +69,7 @@
 							<li><a href="#" data-nav-section="about">Auteurs</a></li>
 							<li><a href="#" data-nav-section="buy">Achetez nos livres</a></li>
 							<li><a href="#" data-nav-section="blog">Blog</a></li>
+							<li><a href="#" data-nav-section="discussion">Discussion</a></li>
 							<li><a href="#" data-nav-section="contact">Contact</a></li>  
 							<!--<li><a href="#" data-nav-section="experience">Experience</a></li>
 							<li><a href="#" data-nav-section="work">Work</a></li>
@@ -551,8 +552,6 @@
 						<!--Section: Content-->
 						<section class="px-md-5 mx-md-5 dark-grey-text">
 
-						<p class="font-weight-bold text-center">Blog sidebar</p>
-
 						<style>
 							.news-tile .card-title {
 							position: absolute;
@@ -568,29 +567,29 @@
 						<!-- Form subscription -->
 						<form class="text-center border border-light p-4 mb-4" action="#!">
 
-							<p class="font-weight-bold">Subscribe</p>
+							<p class="font-weight-bold">S'abonner</p>
 
-							<p>Join our mailing list. We write rarely, but only the best content.</p>
+							<p>Inscrivez-vous à notre blog. Nous écrivons rarement, mais seulement le meilleur contenu.</p>
 
 							<p>
-							<a href="" target="_blank">See the last newsletter</a>
+							<a href="" target="_blank">Voir les blogs recent</a>
 							</p>
 
 							<!-- Name -->
 							<div class="md-form md-outline">
 							<input type="text" id="form1" class="form-control">
-							<label for="form1">Your name</label>
+							<label for="form1">Votre Nom</label>
 							</div>
 
 							<!-- Email -->
 
 							<div class="md-form md-outline">
 							<input type="email" id="form2" class="form-control">
-							<label for="form2">Your e-mail</label>
+							<label for="form2">Votre Email</label>
 							</div>
 
 							<!-- Sign in button -->
-							<button class="btn btn-info btn-block mb-0" type="submit">Sign in</button>
+							<button class="btn btn-info btn-block mb-0" type="submit">S'inscrire'</button>
 
 
 						</form>
@@ -625,7 +624,7 @@
 
 
 
-			<section class="colorlib-experience" data-section="experience">
+			<section class="colorlib-experience" data-section="discussion">
 				<div class="colorlib-narrow-content">
 					<div class="row">
 						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
