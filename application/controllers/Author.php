@@ -5,7 +5,22 @@ class Author extends CI_Controller {
 
 	public function index()
 	{
-		
+		$this -> load -> view('home');
+	}
+
+	public function inputs_author_infos() 
+	{
+		$author = array(
+			'id_auteur' => '',
+			'nom_auteur' => $this -> input -> post('name'), 
+			'date_naissance' => $this -> input -> post('date_naissance'),
+			'email_auteur' => $this -> input -> post('email'), 
+			'telephone_auteur' => $this -> input -> post('phone'),
+			'nationalite' => $this -> input -> post('nationalite'),
+			'genre_auteur' => $this -> input -> post('genre')
+		);
+
+		return $author;
 	}
 
 	 /** Cette fonction permet d'ajouter un auteur 
@@ -19,7 +34,17 @@ class Author extends CI_Controller {
     */
 	public function add_author()
 	{
-
+		$author = $this -> inputs_author_infos();
+		$this -> form_validation -> set_values('name', 'nom', 'required', array('', ''));
+		$this -> form_validation -> set_values('email', 'email', 'required', array('', ''));
+		$this -> form_validation -> set_values('phone', 'téléphone', 'required', array('', ''));
+		
+		if($this -> form_validation() -> run()) {
+			$this -> authormodel -> add($author);
+			$this -> load -> view('home');
+		} else {
+			redirect();
+		}
 	}
 
 	/** Cette fonction supprime le commentaire d'un user
