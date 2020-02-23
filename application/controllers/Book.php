@@ -17,8 +17,24 @@ class Book extends CI_Controller {
 
 	public function index()
 	{
-		
-    }
+		$this -> load -> view('home');
+     }
+
+
+     public function inputs_book_infos()
+     {
+          $book = array(
+               'id_book ' => '',
+               'id_auteur' =>  => $this -> input -> post('id_auteur'),
+               'titre' => $this -> input -> post('titre'),
+               'nbpage' => $this -> input -> post('pages'),
+               'version'  => $this -> input -> post('version'),
+               'edition'  => $this -> input -> post('edition'),
+               'date_publication'  => $this -> input -> post('date_publication')
+          );
+
+          return $book;
+     } 
     
     
 	 /** Cette fonction permet d'ajouter un livre
@@ -33,7 +49,7 @@ class Book extends CI_Controller {
      */
 	public function add_book()
 	{
-
+          
 	}
 
 	/** Cette fonction supprime un livre de la base de données

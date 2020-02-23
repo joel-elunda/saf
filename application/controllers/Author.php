@@ -54,7 +54,7 @@ class Author extends CI_Controller {
      */
 	public function remove_author()
 	{
-
+		
 	}
 
 	/** Cette fonction retourne un tableau de toutes les informations d'un auteur

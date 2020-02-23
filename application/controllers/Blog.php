@@ -14,7 +14,7 @@ class Blog extends CI_Controller {
      */
     public function suscribe()
     {
-
+        
     }
 
     /** Cette fonction retourne tous les commentaires de la base
