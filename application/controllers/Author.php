@@ -84,6 +84,6 @@ class Author extends CI_Controller {
      */
 	public function count_authors() 
 	{
-		return $this -> author;
+		return $this -> mainmodel -> count('author');
 	}
 }
