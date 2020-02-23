@@ -32,15 +32,19 @@ class Author extends CI_Controller {
 	{
 		$author = $this -> inputs_author_infos();
 
-		$this -> form_validation -> set_values('name', 'nom', 'required', array('', ''));
-		$this -> form_validation -> set_values('email', 'email', 'required', array('', ''));
-		$this -> form_validation -> set_values('phone', 'téléphone', 'required', array('', ''));
+		$this -> form_validation -> set_values('name', 'nom', 'required', array('' => ''));
+		$this -> form_validation -> set_values('date', 'date de naissance', 'required', array('' => ''));
+		$this -> form_validation -> set_values('email', 'email', 'required', array('' => ''));
+		$this -> form_validation -> set_values('phone', 'téléphone', 'required', array('' => ''));
+		$this -> form_validation -> set_values('nationalite', 'nationalité', 'required', array('' => ''));
+		$this -> form_validation -> set_values('genre', 'genre', 'required', array('' => ''));
 		
 		if($this -> form_validation() -> run()) 
 		{
 			$this -> authormodel -> add($author);
 			$this -> load -> view('home');
-		} else 
+		} 
+		else 
 		{
 			redirect();
 		}
@@ -80,6 +84,6 @@ class Author extends CI_Controller {
      */
 	public function count_authors() 
 	{
-		return 0;
+		return $this -> author;
 	}
 }
