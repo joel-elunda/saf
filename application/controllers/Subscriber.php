@@ -11,10 +11,6 @@ class Subscriber extends CI_Controller {
     
 	 /** Cette fonction permet d'ajouter un abonné
      *  
-     *  @return boolean
-     *  FALSE :  (si l'abonné existe ou si il ne repond pas au form validation)
-     *  TRUE  :  (Dans le cas contraire) 
-     * 
      *  La variable $abonné est un tableau qui contient les infos de l'abonné
      *  (Le nom et l'email ... )
     */
@@ -23,11 +19,7 @@ class Subscriber extends CI_Controller {
 
 	}
 
-	/** Cette fonction supprime un abonné
-     * 
-     *  @return boolean
-     *  TRUE  :    (si l'abonné été supprimé)
-     *  FALSE :    (Dans le cas contraire) 
+	/** Cette fonction supprime un abonné 
      */
 	public function remove_subscriber()
 	{
