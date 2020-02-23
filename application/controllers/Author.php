@@ -23,35 +23,30 @@ class Author extends CI_Controller {
 		return $author;
 	}
 
-	 /** Cette fonction permet d'ajouter un auteur 
-     *  
-     *  @return boolean
-     *  FALSE :  (si l'auteur existe ou si il ne repond pas au form validation)
-     *  TRUE  :  (Dans le cas contraire) 
-     * 
-     *  La variable $auteur est un tableau qui contient les infos de l'auteur
-     *  (Le nom et l'email ... )
-    */
+	/** Cette fonction permet d'ajouter un auteur 
+	 * 
+	 *  La variable $auteur est un tableau qui contient les infos de l'auteur
+	 *  (Le nom et l'email ... )
+	 */
 	public function add_author()
 	{
 		$author = $this -> inputs_author_infos();
+
 		$this -> form_validation -> set_values('name', 'nom', 'required', array('', ''));
 		$this -> form_validation -> set_values('email', 'email', 'required', array('', ''));
 		$this -> form_validation -> set_values('phone', 'téléphone', 'required', array('', ''));
 		
-		if($this -> form_validation() -> run()) {
+		if($this -> form_validation() -> run()) 
+		{
 			$this -> authormodel -> add($author);
 			$this -> load -> view('home');
-		} else {
+		} else 
+		{
 			redirect();
 		}
 	}
 
 	/** Cette fonction supprime le commentaire d'un user
-     * 
-     *  @return boolean
-     *  TRUE  :    (si l'auteur a été supprimé)
-     *  FALSE :    (Dans le cas contraire) 
      */
 	public function remove_author()
 	{

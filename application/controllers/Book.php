@@ -23,10 +23,6 @@ class Book extends CI_Controller {
     
 	 /** Cette fonction permet d'ajouter un livre
      *  
-     *  @return boolean
-     *  FALSE :  (si le livre existe ou si il ne repond pas au form validation)
-     *  TRUE  :  (Dans le cas contraire) 
-     * 
      *  La variable $livre est un tableau qui contient les infos du livre
      *  $id_livre    
      *  $titre       
@@ -42,13 +38,10 @@ class Book extends CI_Controller {
 
 	/** Cette fonction supprime un livre de la base de données
      * 
-     *  @return boolean
-     *  TRUE  :    (si le livre a été supprimé)
-     *  FALSE :    (Dans le cas contraire) 
      */
 	public function remove_book()
 	{
-        return FALSE;
+        
 	}
 
 	/** Cette fonction retourne un tableau de toutes les informations d'un livre
